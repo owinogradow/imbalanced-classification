@@ -1,6 +1,5 @@
-
 from tensorflow.keras import layers, models, metrics
-import tensorflow as tf
+
 class CNN:
     def __init__(self):
       self.model = models.Sequential()
